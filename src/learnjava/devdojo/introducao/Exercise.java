@@ -16,9 +16,7 @@ public class Exercise {
         SimpleDateFormat formatObj = new SimpleDateFormat("dd/MM/yyyy");
         String salaryDate = formatObj.format(salaryDateUnformated);
 
-
         String report = "Im " + name + " salary date: " + salaryDate;
-
         System.out.println(report);
 
     }

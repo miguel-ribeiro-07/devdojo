@@ -1,6 +1,6 @@
 package learnjava.devdojo.introducao;
 
-public class Aula02 {
+public class C02 {
     public static void main(String[] args) {
         // 8 primitives types: int, double, float, char, byte, short, long, boolean
         int age = 23;

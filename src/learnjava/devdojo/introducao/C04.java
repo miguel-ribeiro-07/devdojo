@@ -10,5 +10,7 @@ public class C04 {
         double result = numb01 /numb02;
         System.out.println("Value: " + (numb01 + numb02));
         System.out.println(result);
+
+        // % operator
     }
 }

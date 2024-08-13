@@ -7,7 +7,7 @@ public class C06 {
         // age >=18 category masters
 
         int age = 10;
-        String category;
+        String category = "";
 
         if(age < 15){
             category = "Junior category";

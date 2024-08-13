@@ -10,13 +10,16 @@ public class C07 {
         System.out.println(canBuyPs5);
 
         // TAXES in Netherlands
-        float salaryPerMonth = 5000.0F;
-        float tax;
-        if(salaryPerMonth <= 34712.00F){
-            tax = 9.7F;
-        }else if(salaryPerMonth <= 68507.00F){
-            tax = 37.35F;
-        }else tax = 49.5F;
-        System.out.print(tax + " %");
+        double salaryPerMonth = 5000.0F;
+        double tax;
+        double amountToBePayed;
+        if(salaryPerMonth <= 34712.00D){
+            tax = 9.7D;
+        }else if(salaryPerMonth <= 68507.00D){
+            tax = 37.35D;
+        }else tax = 49.5D;
+
+        amountToBePayed = salaryPerMonth * (tax / 100);
+        System.out.print(amountToBePayed + (" tax: "+ tax));
     }
 }

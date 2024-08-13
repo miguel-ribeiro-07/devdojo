@@ -12,14 +12,20 @@ public class C07 {
         // TAXES in Netherlands
         double salaryPerMonth = 5000.0F;
         double tax;
-        double amountToBePayed;
+        double amountToBePaid;
         if(salaryPerMonth <= 34712.00D){
             tax = 9.7D;
         }else if(salaryPerMonth <= 68507.00D){
             tax = 37.35D;
         }else tax = 49.5D;
 
-        amountToBePayed = salaryPerMonth * (tax / 100);
-        System.out.print(amountToBePayed + (" tax: "+ tax));
+        if(salaryPerMonth <= 34712.00D){
+            tax = 9.7D;
+        }else if(salaryPerMonth >= 34713.00D && salaryPerMonth <= 68507.00D){
+            tax = 37.35D;
+        }else tax = 49.5D;
+
+        amountToBePaid = salaryPerMonth * (tax / 100);
+        System.out.print(amountToBePaid + (" tax: "+ tax));
     }
 }

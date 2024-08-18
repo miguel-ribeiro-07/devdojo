@@ -3,7 +3,7 @@ package learnjava.devdojo.introducao;
 public class C09 {
 
     public static void main(String[] args) {
-        byte dayInNumber = 10;
+        byte dayInNumber = 4;
 
         switch(dayInNumber){
             case 1:
@@ -29,6 +29,23 @@ public class C09 {
                 break;
             default:
                 System.out.println("Out of range");
+        }
+
+        switch (dayInNumber){
+            case 1:
+            case 7:
+                System.out.println("Weekend day");
+                break;
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                System.out.println("Business day");
+                break;
+            default:
+                System.out.println("Out of range");
+                break;
         }
     }
 }

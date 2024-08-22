@@ -9,14 +9,14 @@ public class C11 {
 
         int pointer = 0;
 
-        /*for(int i = 0; i <= 1000; i++){
+        for(int i = 0; i <= 1000; i++){
           if(i % 2 == 0) System.out.println(i);
-        }*/
+        }
 
-        /*while(pointer <= 10){
+        while(pointer <= 10){
             if(pointer % 2 == 0) System.out.println(pointer);
             pointer++;
-        }*/
+        }
 
         do{
             if(pointer % 2 == 0) System.out.println(pointer);
